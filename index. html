@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Saver - Blood Donor Finder</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>❤️ Life Saver</h1>
+    <p>உயிர் காக்கும் இரத்த தான உதவி</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🩸 Blood Group Finder</h2>
+      <p>உங்களுக்குத் தேவையான இரத்த வகையைத் தேர்வு செய்யுங்கள்.</p>
+
+      <label for="blood">Blood Group தேர்வு செய்:</label>
+
+      <select id="blood">
+        <option value="">-- தேர்வு செய் --</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+
+      <button id="searchBtn">Search Blood Group</button>
+
+      <p id="result" aria-live="polite"></p>
+    </section>
+
+    <section class="card">
+      <h2>🚨 Emergency Help</h2>
+      <p>மருத்துவ அவசரநிலையில் அருகிலுள்ள மருத்துவமனையைத் தொடர்புகொள்ளவும்.</p>
+      <p>இந்தியாவின் அவசர உதவி எண்: <strong>112</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Life Saver | Student Project</p>
+  </footer>
+
+</body>
+</html>
