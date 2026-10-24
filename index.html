@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+</head>
+<body style="background:#f0f8ff; font-family:Arial; text-align:center; padding:20px;">
+
+  <h1 style="color:#0066cc;">🏥 Life Saver</h1>
+  <h2>உயிர் காக்கும் இணையதளம்</h2>
+  <p>தேவைப்படும் நேரத்தில் உதவியைப் பெறுங்கள்! eppatikku yokesh</p>
+
+  <div style="background:white; padding:20px; border-radius:15px;">
+    <h3>🩸 Blood Donor Finder</h3>
+    <p>உங்களுக்குத் தேவையான இரத்த வகையைத் தேர்வு செய்யுங்கள்.</p>
+
+    <select id="blood" style="padding:10px;">
+      <option>A+</option>
+      <option>A-</option>
+      <option>B+</option>
+      <option>B-</option>
+      <option>O+</option>
+      <option>O-</option>
+      <option>AB+</option>
+      <option>AB-</option>
+    </select>
+
+    <button onclick="alert('Selected Blood Group: '+document.getElementById('blood').value)"
+      style="background:green;color:white;padding:12px;border:0;border-radius:8px;">
+      Search
+    </button>
+  </div>
+
+</body>
+</html>
+
